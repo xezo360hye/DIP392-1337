@@ -1,0 +1,33 @@
+{
+  "short_name": "Attendance",
+  "name": "Attendance Admin",
+  "icons": [
+    {
+      "src": "icons/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1976d2",
+  "screenshots": [
+  {
+    "src": "screenshots/desktop.png",
+    "sizes": "1280x720",
+    "type": "image/png",
+    "form_factor": "wide"
+  },
+  {
+    "src": "screenshots/mobile.png",
+    "sizes": "360x720",
+    "type": "image/png"
+  }
+]
+}

@@ -1,0 +1,63 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.toolbarLeft {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.monthSelect, .addButton {
+  min-width: 200px;
+}
+
+.tableWrapper {
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(44,44,90,0.06);
+  border-radius: 12px;
+  padding: 28px 22px;
+}
+
+.addButton {
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 8px 24px;
+}
+
+.monthSelect {
+  min-width: 200px;
+  margin-right: 18px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(60,60,130,0.07);
+}
+
+@media (max-width: 600px) {
+  .toolbar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .toolbarLeft {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  .monthSelect, .addButton {
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 0 8px 0 !important;
+    box-sizing: border-box;
+  }
+  .addButton {
+    margin-top: 4px !important;
+  }
+}

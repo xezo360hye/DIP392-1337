@@ -1,0 +1,18 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.tableWrapper {
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(44,44,90,0.06);
+  border-radius: 12px;
+  padding: 28px 22px;
+}
+.addButton {
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 8px 24px;
+}
