@@ -16,7 +16,7 @@
           buildInputs = with pkgs; [
             nodejs
             nodePackages_latest.prisma
-            #openssl
+            openssl
           ];
           env = {
             PRISMA_QUERY_ENGINE_LIBRARY = "${pkgs.prisma-engines}/lib/libquery_engine.node";
