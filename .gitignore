@@ -29,3 +29,5 @@ yarn-error.log*
 
 .env
 .env.*     # covers .env.local, .env.production, etc.
+
+project_docs/.~lock.report.odt#
